@@ -11,6 +11,7 @@ class Assets {
   static const String iconsCarNavBar = 'assets/icons/carNavBar.svg';
   static const String iconsCoffeeBean = 'assets/icons/coffeeBean.svg';
   static const String iconsDiscount = 'assets/icons/Discount.svg';
+  static const String iconsDots = 'assets/icons/dots.svg';
   static const String iconsEdit = 'assets/icons/edit.svg';
   static const String iconsFavouriteNavBar = 'assets/icons/favouriteNavBar.svg';
   static const String iconsHeart = 'assets/icons/heart.svg';
@@ -21,13 +22,18 @@ class Assets {
   static const String iconsNotificationsNavBar =
       'assets/icons/notificationsNavBar.svg';
   static const String iconsPhone = 'assets/icons/phone.svg';
+  static const String iconsSelected = 'assets/icons/selected.svg';
   static const String iconsSettings = 'assets/icons/settings.svg';
   static const String iconsStar = 'assets/icons/star.svg';
+  static const String pngBike = 'assets/png/bike.png';
   static const String pngChocolateCappucino =
       'assets/png/chocolateCappucino.png';
+  static const String pngCoffee = 'assets/png/coffee.jpeg';
+  static const String pngCoffeeBean = 'assets/png/coffeeBean.png';
   static const String pngDriverPhoto = 'assets/png/driverPhoto.png';
   static const String pngFourthCappucino = 'assets/png/fourthCappucino.png';
   static const String pngMap = 'assets/png/map.png';
+  static const String pngMilk = 'assets/png/milk.png';
   static const String pngOatMilkCappucino = 'assets/png/oatMilkCappucino.png';
   static const String pngOnboardingImage = 'assets/png/onboardingImage.png';
   static const String pngPromo = 'assets/png/promo.png';

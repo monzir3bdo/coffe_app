@@ -1,4 +1,4 @@
-import 'package:coffee_shop/features/onboarding/presentation/screens/onboarding_screen.dart';
+import 'package:coffee_shop/core/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -7,7 +7,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: OnboardingScreen(),
+      initialRoute: AppRoutes.onboarding,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }

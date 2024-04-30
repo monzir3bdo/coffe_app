@@ -1,3 +1,5 @@
+import 'package:coffee_shop/core/extensions/build_context_extension.dart';
+import 'package:coffee_shop/core/routes/app_routes.dart';
 import 'package:coffee_shop/features/onboarding/presentation/widgets/app_button.dart';
 import 'package:flutter/material.dart';
 
@@ -44,7 +46,13 @@ class OnboardingBody extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 28.0),
             child: AppButton(
-                title: 'Get Stated', width: double.infinity, height: 70),
+                onPressed: () {
+                  context.navigateToScreen(destination: AppRoutes.home);
+                  print('wtf');
+                },
+                title: 'Get Stated',
+                width: double.infinity,
+                height: 70),
           ),
         ],
       ),

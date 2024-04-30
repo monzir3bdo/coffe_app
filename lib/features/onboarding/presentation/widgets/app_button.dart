@@ -6,9 +6,11 @@ class AppButton extends StatelessWidget {
       {super.key,
       required this.title,
       required this.width,
-      required this.height});
+      required this.height,
+      required this.onPressed});
   final String title;
   final double width, height;
+  final void Function() onPressed;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -20,7 +22,7 @@ class AppButton extends StatelessWidget {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         ),
-        onPressed: () {},
+        onPressed: onPressed,
         child: Text(
           title,
           style: const TextStyle(
